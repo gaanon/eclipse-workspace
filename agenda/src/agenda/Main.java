@@ -51,7 +51,6 @@ public class Main {
      System.out.println("Nombre: " + nuevoContacto.getNombre());
      System.out.println("Telefono: " + nuevoContacto.getTelefono());
      System.out.println("Email: " + nuevoContacto.getEmail());
-     System.out.println("Direccion: " + nuevoContacto.getDireccion());
      System.out.println("---");
      
      // Cerrar el scanner (buena práctica)

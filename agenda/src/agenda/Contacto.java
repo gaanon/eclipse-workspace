@@ -11,7 +11,6 @@ public class Contacto {
  // --- Campos (Fields) ---
  // Estos son 'private' para proteger los datos.
  private String nombre;
- private String direccion;
  private String telefono;
  private String email;
 
@@ -26,7 +25,6 @@ public class Contacto {
      this.nombre = nombre;
      
      // No es necesario establecer los otros, son 'null' por defecto
-     // this.direccion = null;
      // this.telefono = null;
      // this.email = "";
  }
@@ -36,10 +34,6 @@ public class Contacto {
 
  public String getNombre() {
      return this.nombre;
- }
-
- public String getDireccion() {
-     return this.direccion;
  }
 
  public String getTelefono() {
@@ -55,10 +49,6 @@ public class Contacto {
  // Estos métodos permiten a otras clases ESCRIBIR o ACTUALIZAR los datos.
  // (No incluimos un 'setNombre' porque decidimos que solo se establece 
  // en el momento de la creación a través del constructor).
-
- public void setDireccion(String direccion) {
-     this.direccion = direccion;
- }
 
  public void setTelefono(String telefono) {
      this.telefono = telefono;
